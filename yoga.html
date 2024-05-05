@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ML5 Pose Yoga</title>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- use 640x360 for 16:9, and 640x480 for  4:3  -->
+    <canvas id="canvas" width="640" height="360"></canvas>
+    
+    <div id="inputblock">
+        <label for="file">Upload photo</label>
+        <input type="file" accept="image/*" id="file">
+    </div>
+  
+    <div id="message">Loading...</div>
+    <div><textarea id="numbers"></textarea></div>
+    
+    <img src="https://cdn.glitch.me/50591cbc-4ad5-4496-96f0-9b18ddef3e11%2F00000128.jpg?v=1637701426597" id="pose">
+    
+    
+</body>
+
+</html>
